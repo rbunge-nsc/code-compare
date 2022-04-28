@@ -12,3 +12,17 @@ Contributions are made to this repo primarily via Pull Requests. A few general g
 
 ### Pull Requests
 
+Inisita a repo locally
+`git init.`
+Add remote to local
+`git remote add origin git@github.com:rBrown6/Group-2-Project-Repository.git`
+Pull data from remote
+`git pull main`
+Switch to new branch
+`git switch -c newBranch`
+Add changes file to local repo
+`git add .`
+Commit changes
+`git commit -m 'new update'`
+Push changes
+`git push origin newBranch`
