@@ -1,6 +1,6 @@
 
 # How to contribute:
-Each group memeber will be in charge of their topic page.
+Each group member will be in charge of their topic page.
 
 # Roles
 C# Page - Jerry
