@@ -1,3 +1,20 @@
-<h1>Contributing.md file for Group One Code-Compare Repository</h1>
+<!-- PROJECT NAME -->
+<p align="center">
+  <h1 align="center">IT115 Group1 Project Contibuting rules</h1>
+  <p align="center">
+  <!-- CONTRIBUTING -->
   
-  <p>This will be where to find the rules of engagement for group one's repository.</p>
+## Contributing
+
+Any contributions are **greatly appreciated**. Please feel free to add any features or fixes you like. We will review the PR and be happy to add your work to this project.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+This group project started during Spring 2022 with 5 North Seattle College Students based in Seattle, WA.
