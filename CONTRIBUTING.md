@@ -68,7 +68,7 @@ Push changes
 
 ### Your PR is merged!
 
-Congratulations 🎉🎉 The Repository team thanks you.
+Congratulations 🎉🎉 Group 2 thanks you.
 
 Once your PR is merged, your contributions will be publicly visible on the Repository docs.
 
