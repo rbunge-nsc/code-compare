@@ -13,6 +13,15 @@ Any contributions are **greatly appreciated**. Please feel free to add any featu
 3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
+  
+## Code of Conduct
+  
+Please be respectful of other contributors by:
+  
+1. Considering their viewpoints and experiences
+2. Using welcoming and inclusive language
+3. Offering criticism in a contstructive way
+4. Receiving constructive criticism graciously
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
