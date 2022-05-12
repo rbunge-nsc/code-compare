@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>Javascript Assignment 8
+
+<body>
+
+<p id = "theTableHere"></p>
+
+<script>
+
+var decimal = 16;
+var row = 0;
+var theTable = ""
+
+theTable += "<table border = '1'>"
+theTable += "<tr><th>Decimal</th>"
+theTable += "<th>Hex</th>"
+theTable += "<th>Binary</th><tr>"
+;
+
+for (row = 0; row < decimal; row++) {
+   let hex = row.toString(16)
+   theTable +=  "<tr><td>" + row + "</td><td>" + hex.toUpperCase() + "</td><td>" + row.toString(2) + "</td></tr>";
+
+
+theTable += "</table>"
+
+document.getElementById("theTableHere").innerHTML = theTable;
+
+</script>
+
+</body>
+</html>
