@@ -16,7 +16,7 @@ Each group member will be in charge of their topic page
 Use the Github issues to let the group know if a webpage has inaccurate info/typos. (Or just message the group chat on google chats.)
 
 # How to submit changes to another members page:
-- Use the Pull request protocal developed by the group.
+- Use the Pull request protocol developed by the group.
 
 # Group Responsbilities:
 - Every member will work on their own page.
