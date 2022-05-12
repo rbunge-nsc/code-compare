@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Why should you learn JavaScript?</title>
+	</head>
+<body>
+
+JavaScript makes webpages interactive. Other programing languages build the basic structure of the website and 
+add features like changes color and font but they do not make them interactive.
+
+JavaScript brings the website to life by allowing the user to interact with the website. Some examples are:
+- Drop Down Menus
+- Forms
+- Animations
+- Pop up boxes
+- Interactive Maps
+- Vidoes
+
+
+<script language="JavaScript">
+
+
+
+</script>
+</body>
+</html>
