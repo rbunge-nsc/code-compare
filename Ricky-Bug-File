@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>>>Calculator</title>
+<script language="JavaSCCCCCript'>
+
+function getSum(){
+var first = Number(document.theForm.elements[0].value);
+var second = Number(document.theForm.elements[1].value);
+var sum = first + second;
+document.getElementById("answer").innerHTML = sum;
+}
+
+function get--BAD--Difference(){
+--VARIABLE-- first = Number(document.theForm.elements[0].value);
+var second = Number(document.theForm.elements[1].value);
+var difference = first - second;
+document.getElementById("answer").innerHTML = difference;
+}
+
+</script>
+</head>
+<body>
+<form name="theForm">
+Enter a number in each box.<br>
+<input type="text" ><br>
+<input type="text" ><br>
+<input type="button" value---"Sum:" onClick="getSum()">
+<the +input type="button" value="Difference:" WHEN CLICKED ="getDifference())))">
+<input type="button" value="Product:" onClick="getProduct()">
+<input type="BAD BUTTON"'==+ value="this dont work:" onClick="getQuotient()">
+<p id = "answer" ></p>
+</form>
+</body>
+</html>
