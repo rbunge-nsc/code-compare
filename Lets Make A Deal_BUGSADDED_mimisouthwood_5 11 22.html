@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div#wrapper {
+            width:940px;
+            padding:50px 400px 50px 400px;
+            font-family: cursive;
+        }
+        h1 {
+            color:mediumblue;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color:purple;
+            margin-bottom: 30px;
+        }
+        h3 {
+            color:magenta;
+            margin-bottom: 30px;
+        }
+        p {
+            color:mediumblue;
+            margin-bottom: 30px;
+        }
+        </style>
+</head>
+<!-- pseudocode  	
+Let’s Make A Deal!
+Choose a door!
+First thing: Door 1: You won a trip to London!
+Second thing: Door 2: You won a trip to Paris!     
+Last thing: Door 3: You won a trip to Rome!
+Default: You made no choice. You will be staying home. 
+-->
+
+<body>
+
+<div id="wrapper">
+h1>Welcome to Let's Make A Deal!</h1> 
+<h2>Today, you have an opportunity to win a trip! All you have to do is select the right door!</h2>
+<h3>Select Door1, Door2 or Door3 from the menu.</h3>
+
+<select id="mySelect" onchange="myFunction()">
+ <option>Pick one
+ <option value="London">Door1
+ <option value="Paris">Door2
+ <option value="Rome">Door3
+ <option value="none of these">none of these
+</select>
+<script>
+function myFunction(){
+var trip = document.getElementById("mySelect").value;
+var message = "<h1>You selected " + trip + "!</h1>";
+switch (trip) {
+
+ case "London":
+ message += "<h2>Congratulations, you have won a trip to " + trip + "! Your trip comes with an umbrella for those rainy days in England. Have a great time!</h2>";
+ break;
+ case "Paris":
+ message += "<h2>Congratulations, you have won a trip to " + trip + "! Your trip comes with a clothing budget to spend in all those swanky fashion boutiques! Have a great time!</h2>";
+ break;
+
+ case "Rome":
+ message += "<h2>Congratulations, you have won a trip to " + trip + "! Your trip comes with an extra budget for dining out and trying all those Italian food specialties! Have a great time!</h2>";
+ break;
+
+ default:
+ message += "<h3>Sorry, you did not make a valid selection. You did not win a trip. Try again!</h3>";
+ break;
+ 
+document.getElementById("demo").innerHTML = message;
+}
+</script>
+
+<p id="demo"></p
+
+</div>
+
+</body>
+</html>
