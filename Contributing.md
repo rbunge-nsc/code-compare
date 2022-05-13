@@ -22,6 +22,12 @@ Please be respectful of other contributors by:
 2. Using welcoming and inclusive language
 3. Offering criticism in a contstructive way
 4. Receiving constructive criticism graciously
+  
+## How to test
+  1. git fetch
+  2. git pull main
+  3. node filename.js
+
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
