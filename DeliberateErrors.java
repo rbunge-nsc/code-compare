@@ -1,19 +1,13 @@
 /**
- * Errors below.
+ * Java code with errors below, with corrections.
  */
+
 class DeliberateErrors {
     main() {
         //Removed "r" from print
         //System.out.pintln("Starting an error.\n");
         //Revised after Linter Check
         System.out.println("Starting an error.\n");
-
-        //Changed 2 to 2.0
-        int five = 5;
-        //int answer = five / 2.0;
-        //Revised after Linter Check
-        int answer = five / 2;
-        System.out.println(answer + "\n");
 
         //Need to end string with "
         //String errorHere = "Right here\n';
@@ -29,4 +23,3 @@ class DeliberateErrors {
         System.out.println("Integer is " + integer);
     }
 }
-package DeliberateErrors;
