@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+
+        body{
+            background:white;
+            font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+        }
+
+        div#wrapper{
+            width:940px;
+            margin:20px auto;
+            background:whitesmoke;
+            overflow: hidden;
+        }
+
+        header {
+            height:125px;
+        }
+        header h1,h2{
+            padding-top:20px;
+            text-align: center;
+        }
+        nav{
+            height:50px;
+            line-height: 50px;
+            background: lightgray;
+        }
+        main{
+            padding-top:20px;
+            padding-left:20px;
+            padding-bottom:20px;
+            width:460px;
+            float:left;
+        }
+        main h3{
+            border-left:10px solid red;
+            margin-bottom:20px;
+        }
+
+        aside p, aside ul{
+            text-align:center;
+            list-style:none;
+        }
+        aside li{
+            line-height:30px;
+        }
+        aside{
+            padding-top:20px;
+            width:460px;
+            float:right;
+            padding-bottom:20px;
+        }
+        footer{
+            height:50px;
+            background:#666666;
+            clear:both;
+            margin-bottom:20px;
+        }
+        img{
+            max-width: 100%;
+            display: block;
+        }
+
+        nav li{
+            list-style-type:none;
+            float:left;
+            width:16.6666666667%;
+            text-align:center;
+        }
+        nav a{
+            color: #FF0000;
+            text-decoration: none;
+            display:block;
+        }
+        nav a:hover{
+            color:white;
+            background:black;
+        }
+        nav p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>What is the best computer language?</h1>
+        <h2>by Group 2</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/csharp.html">C#</a></li>
+            <li><a href="pages/python.html">Python</a></li>
+            <li><a href="pages/java.html">Java</a></li>
+            <li><a href="pages/javascript.html">Javascript</a></li>
+            <li><a href="pages/sql.html">SQL</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Which computer language suits you best? Click on the tabs above to find out!</h3>
+        <img src="https://previews.123rf.com/images/kadettmann/kadettmann1505/kadettmann150500119/40936753-thinking-latin-guy-in-a-blue-shirt.jpg">
+    </main>
+    <aside>
+        <p><u>Credits</u><p>
+        <ul>
+            <li>Jerry - C#</li>
+            <li>James - Python</li>
+            <li>Stephen - Java</li>
+            <li>Shannon - Javascript</li>
+            <li>Asher - SQL</li>
+        </ul>
+    </aside>
+</div> <!--end wrapper -->
+</body>
+</html>
