@@ -1,0 +1,146 @@
+img {
+    margin: 20px auto;
+    display: block;
+/*    border-radius: 10px;*/
+    margin-bottom: 1px;
+}
+
+body {
+    background: black;
+/*    color: white;*/
+}
+
+#wrapper {
+    width: 940px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 30px;
+    background: #a5acb8;
+    height: 700px;
+/*    border-radius: 10px;*/
+}
+
+
+.first {
+    width: 450px;
+    float: left;
+    border: 2px solid #426570;
+    height: 500px;
+    border-bottom-right-radius: 30px
+}
+
+.second {
+    width: 400px;
+/*    border: 1px solid white;*/
+    border-radius: 5px;
+    height: 500px;
+    float: right;
+}
+
+.second img {
+  background-position: center;
+  height: 80%;
+  width: 95%;
+    margin-bottom: 5px;
+}
+
+
+nav {
+    width: 1000px;
+    margin: 20px auto;
+    height: 50px;
+    background: #426570;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: goldenrod;
+    display: block;
+}
+
+nav a:hover {
+    background: #357796;
+    color: white;
+
+}
+
+.home li:nth-child(1) a,
+.about li:nth-child(2) a,
+.tours li:nth-child(3) a,
+.promos li:nth-child(4) a,
+.contact li:nth-child(5) a 
+{
+background: lightyellow;
+   color: darkred;
+    
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    width: 25%; 
+    text-align: center;
+/*    WIDTH 20% IS 100 /5 5 BEING THE NUMBER OF NAV LISTS WE HAVE*/
+    
+}
+
+
+p {
+    padding: 8px;
+/*    background: lightgray;*/
+/*    color: white;*/
+    font-size: 1.2em;
+    margin-top: 0;
+/*    border-radius: 10px;*/
+}
+
+.first h3 {
+    background: none;
+}
+
+h2 {
+    background: #426570;
+    margin-top: 0;
+    padding: 8px;
+    font-weight: 100;
+    color: tan;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    background: #a5acb8;
+    clear: both;
+    font-size: .9em;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.homepage {
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.4em;
+}
+
+footer ul {
+    margin-left: 40px;
+}
+
+footer li {
+    list-style: none;
+    float: left;
+    margin-right: 10%;
+}
+
+h1 {
+
+}
+
+.first ul {
+    font-size: 1.3em;
+    list-style-type: none;
+}
+
+
