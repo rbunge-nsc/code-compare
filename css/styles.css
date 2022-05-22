@@ -1,0 +1,163 @@
+/*styles for my travel website*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+div#wrapper {
+    width: 940px;
+    margin: 20px auto;
+/*    margin 20px auto will center the wrapper*/
+}
+
+
+header {
+/*    height: 200px; */
+/*    background: brown;*/
+/*    HEIGHT AND BACKGROUND TO BE REMOVED AFTER WE ADD THE HEADER!!*/
+}
+
+#logo {
+    display: inline;
+    margin-bottom: 16PX;
+}
+
+
+nav {
+    height: 50px;
+    background: lightblue;
+    line-height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: goldenrod;
+    display: block;
+}
+
+nav a:hover {
+    background: lightyellow;
+    color: darkred;
+
+}
+
+
+.home li:nth-child(1) a,
+.about li:nth-child(2) a,
+.tours li:nth-child(3) a,
+.promos li:nth-child(4) a,
+.contact li:nth-child(5) a 
+{
+background: lightyellow;
+   color: darkred;
+    
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    width: 20%; 
+    text-align: center;
+/*    WIDTH 20% IS 100 /5 5 BEING THE NUMBER OF NAV LISTS WE HAVE*/
+    
+}
+
+
+#hero {
+/*    height: 300px;*/
+/*    background: red;*/
+    /*   HEIGHT AND BACKGROUND TO BE REMOVED AFTER WE ADD THE HEADER!!*/
+    
+}
+
+
+main {
+    width: 580px;
+/*    height: 400px;*/
+/*    background: green;*/
+    float: left;
+    margin-top: 24PX;
+/*    DO NOT FORGET TO REMOVE THE HEIGHT AFTER ADDING A CONTENT IN THE MAIN INSIDE HTML*/
+}
+
+aside {
+    width: 340px;
+/*    height: 300px;*/
+/*background: darkcyan;*/
+    float: right;
+    margin-top: 20PX;
+    padding: 15px;
+/*    HEIGHT BACKGROUND COLOR TO BE REMOVED LATER*/
+}
+
+img {
+    max-width: 100%;
+    display: block;
+/*    GOOD WAY TO RESIZE ALL IMAGES AND THIS WILL  */
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 2.44em;
+}
+
+/*TYPOGRAPHY*/
+
+h1, h2, h3 {
+    margin-bottom: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+    color: darkcyan;
+    
+}
+
+h2 {
+    color: darkgoldenrod;
+    font-size: 2em;
+}
+
+h3 {
+    color: darkgoldenrod;
+    font-size: 1.78em;
+    font-weight: 200;
+/*    text-transform: lowercase;*/
+}
+
+P {
+    margin-bottom: 20PX;
+    line-height: 1.3;
+}
+
+/*FOOTER STYLING*/
+
+footer {
+    height: 50px;
+    line-height: 50px;
+/*    background: black;*/
+    clear: both;
+    font-size: .9em;
+}
+
+
+footer ul {
+    margin-left: 20px;
+}
+
+footer li {
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    color: #ffbc56;
+}
+
+
+
