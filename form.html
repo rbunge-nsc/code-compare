@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>JavaScript Test 5</title>
+<script language="JavaScript">
+
+
+function reveal(){
+var food = document.theForm.elements[0].value;
+var beverage = document.theForm.elements[1].value;
+var party = document.theForm.elements[2].value;
+document.write("I know how to enter data in a form, I entered: <b style='color:DodgerBlue;'>" + food + "</b> and <b style='color:DodgerBlue;'>" 
+		+ beverage + "</b> !! <br>" + "Do I understand simple JavaScript Forms? " + party + ".");
+}
+
+</script>
+</head>
+<body>
+<form name="theForm">
+<h1 + p style="color:RebeccaPurple;">Learning How to Use a Form in JavaScript</h1>
+    
+	<strong + p style="color:DodgerBlue;">Enter your first name:</strong>
+<input type="text"><br /> <br />
+<strong + p style="color:SlateBlue;">Enter your last name:</strong>
+<input type="text"><br /> <br />
+<strong + p style="color:RoyalBlue;">Did you figure out how to enter your name?</strong> 
+<select party = "dropdown">
+            <option value = "yes" selected>yes</option>
+            <option value = "no">not this time</option> <br /> <br /> 
+<input type="button" value="Submit" onClick="reveal()">
+
+
+</form>
+</body>
+</html>

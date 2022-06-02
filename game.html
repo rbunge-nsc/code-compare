@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Lets Make a Deal Explained
+
+The person playing the game will pick their travel vechile
+based on what they pick, they will have a different adventure or misadventure-->
+
+<body>
+<h1><p>Welcome to Let's Make a Deal - Travel Edition</p></h1>
+<form name="person"><p>Your Name</p><input type="text" name="person"><br />
+
+<p>Your are going on a trip and going to travel by:</p>
+<select id="mySelect" onchange="myFunction()">
+ 	<option value="Car">Car
+ 	<option value="Boat">Boat
+ 	<option value="Plane">Plane
+	<option value="Train">Train
+   	<option value="Horse">Horse
+</select>
+<p id="answer"></p>
+
+<script>
+function myFunction() {
+ var x = document.getElementById("mySelect").value;
+
+  
+//first option - the car
+if (x == "Car"){
+x += ". Road Trip time!";
+ }
+
+//second option
+ else if(x == "Boat"){
+ x += ". Stuck on the boat, again! Why are you on a boat during a pandemic?";
+ }
+
+//third option
+else if(x == "Plane"){
+x += ". Your flight has been cancelled! Maybe rent a car?";
+}
+
+//fourth option
+else if(x == "Train"){
+x += ". The trained is delayed. Who still travels by train?";
+}
+
+//fifth option
+else if(x == "Horse"){
+x += ". Sorry, your horse is hungry again! I guess you are staying on the farm today.";
+}
+
+ document.getElementById("answer").innerHTML = "The trip will be on a  " + x;
+}
+</script>
+
+</body>
+</html>
+
+

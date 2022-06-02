@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Calculator</h3>
+
+<style>
+      table,
+      table td {
+        border: 3px solid #33FFBD;
+        }
+        
+      td {
+        height: 50px;
+        width: 50px;
+                text-align: center;
+        vertical-align: center;
+      }
+</style>
+
+<table>
+
+<tr>
+
+<!-- tracking buttons clicked to run fuctions -->
+<td colspan="2">The answer is:</td>		
+		<td colspan="3"><input type="text" id="answer"></p></td></tr>
+
+<!-- buttons for the calculator -->	
+<tr>
+	<td><input type="button" name="7" value="7" onClick="keyCal(7)"></td>
+	<td><input type="button" name="8" value="8" onClick="keyCal(8)"></td>
+	<td><input type="button" name="9" value="9" onClick="keyCal(9)"></td>
+	<td><input type="button" name="." value="."  onClick="keyCal('.')"></td>
+	<td><input type="button" name="AC" value="AC"  onClick="reset()"></td>
+	</tr>
+<tr>
+	<td><input type="button" name="4" value="4" onClick="keyCal(4)"></td>
+	<td><input type="button" name="5" value="5" onClick="keyCal(5)"></td>
+	<td><input type="button" name="6" value="6" onClick="keyCal(6)"></td>
+	<td><input type="button" name="-" value="-" onclick="keyCal('-')"></td>
+	<td><input type="button" name="*" value="*" onclick="keyCal('*')"></td>
+	</tr>
+	<tr>
+	<td><input type="button" name="1" value="1" onClick="keyCal(1)"></td>
+	<td><input type="button" name="2" value="2" onClick="keyCal(2)"></td>
+	<td><input type="button" name="3" value="3" onClick="keyCal(3)"></td>
+	<td><input type="button" name="+" value="+" onclick="keyCal('+')"></td>
+	<td><input type="button" name="/" value="/" onclick="keyCal('/')"></td>
+	
+<tr>
+	<td colspan="2"><input type="button" name="0" value="0" onClick="keyCal(0)"></td>
+	<td><input type="button" name="(" value="(" onClick="keyCal('(')"></td>
+	<td><input type="button" name=")" value=")" onClick="keyCal(')')"></td>
+	<td><input type="button" name="=" value="=" onclick="result()"></td>
+	
+	</tr>
+
+</div>
+</table>
+
+<script language="JavaScript">
+
+//Simple calculator that works by clicking buttons and then either 
+// calling for the results function or all clear function
+
+// track number/buttons clicked
+	function keyCal(value){
+		document.getElementById("answer").value += value;
+	}
+
+//clear everything entered by hitting AC	
+	function reset(){
+		document.getElementById("answer").value = '';
+	}
+
+// make a results function to change from a string to a math function
+	function result(){
+		document.getElementById("answer").value = eval(document.getElementById("answer").value);
+	}
+	
+</script>
+
+</body>
+</html>
